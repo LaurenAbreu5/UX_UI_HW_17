@@ -1,0 +1,140 @@
+/*Navigation*/
+
+.backgroundImage {
+    background-image: url("../Images/NAVIGATION\ IMAGE\ ONLY.png");
+    height: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.container {
+    display:flex;
+    justify-content:right;
+    padding-top:0px;
+    margin: 20px;
+    width: auto;
+}
+.topnav {
+    justify-content: right;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color:transparent;
+    float: right;
+}
+
+.topnav a {
+    justify-content: right;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+.header {
+    float: left;
+    text-align: left;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+    padding: 0px;
+}
+
+.description {
+    display: flex;
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.backgroundHero {
+    background-image: url("../Images/HERO\ BACKGROUND\ COLOR\ ONLY.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin: -10px;
+}
+.service-box {
+    background-color:#55bcb1;
+    padding: 20px;
+    color: white;
+}
+.contactContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-image: url("../Images/BACKGROUND\ FOOTER\ ONLY.png");
+    padding: 10px;
+    color: white;
+}
+.contactContainer{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    justify-items: center;
+}
+.contactMe{
+    background-image: url("../Images/LETS\ CHAT\ BACKROUND.png");
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 400px;
+    padding: 60px;
+}
+.submit{
+    background-color: aqua;
+    color: black;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    font-size: 15px;
+}
+.submit:hover{
+    background-color:blueviolet;
+}
+.viewResume {
+    background-color: aqua;
+    color: black;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    font-size: 15px;   
+}
+.viewResume:hover{
+    background-color:blueviolet;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    padding: 10px;
+}
